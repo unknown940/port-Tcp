@@ -15,7 +15,7 @@ print('''
 
 
 host=input('Enter Ip Target\n===>')
-for port in range (0,250):
+for port in range (0,6553):
  a=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  a.settimeout(0.1)
  b=a.connect_ex((host, port))
